@@ -24,18 +24,19 @@ import lombok.NoArgsConstructor;
 public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    private String code;
+    private Long id;
+//    private String code;
     private String libelle;
-    private String contact;
+//    private String contact;
     private String adresse;
     private String tel;
+    private String fax;
     private String email;
-    private String matfisc;
-    private String asuj;
-    private String timbre;
-    private float soldeInit;
-    private float solde;
+//    private String matfisc;
+//    private String asuj;
+//    private String timbre;
+//    private float soldeInit;
+//    private float solde;
     private String login;
     private String pwd;
 }

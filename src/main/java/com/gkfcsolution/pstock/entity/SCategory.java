@@ -24,8 +24,8 @@ import lombok.NoArgsConstructor;
 public class SCategory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String code;
-    private String code_categ;
+    private String codeCateg;
     private String libelle;
 }

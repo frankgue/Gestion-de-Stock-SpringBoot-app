@@ -24,7 +24,7 @@ import lombok.NoArgsConstructor;
 public class Fournisseur {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String code;
     private String libelle;
     private String contact;

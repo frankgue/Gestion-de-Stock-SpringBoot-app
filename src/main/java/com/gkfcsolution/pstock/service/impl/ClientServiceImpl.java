@@ -41,18 +41,18 @@ public class ClientServiceImpl implements ClientService {
         if (clientInfo.isPresent()){
             Client clientResult = clientInfo.get();
             clientResult.setLibelle(client.getLibelle());
-            clientResult.setCode(client.getCode());
-            clientResult.setAsuj(client.getAsuj());
+//            clientResult.setCode(client.getCode());
+//            clientResult.setAsuj(client.getAsuj());
             clientResult.setEmail(client.getEmail());
             clientResult.setAdresse(client.getAdresse());
-            clientResult.setContact(client.getContact());
+//            clientResult.setContact(client.getContact());
             clientResult.setLogin(client.getLogin());
-            clientResult.setSolde(client.getSolde());
-            clientResult.setMatfisc(client.getMatfisc());
-            clientResult.setSoldeInit(client.getSoldeInit());
+//            clientResult.setSolde(client.getSolde());
+//            clientResult.setMatfisc(client.getMatfisc());
+//            clientResult.setSoldeInit(client.getSoldeInit());
             clientResult.setTel(client.getTel());
             clientResult.setPwd(client.getPwd());
-            clientResult.setTimbre(client.getTimbre());
+//            clientResult.setTimbre(client.getTimbre());
 
             return repository.save(clientResult);
 

@@ -41,7 +41,7 @@ public class SCategoryServiceImpl implements SCategoryService {
         if (scategoryInfo.isPresent()){
             SCategory sCategoryResult = scategoryInfo.get();
             sCategoryResult.setCode(scategory.getCode());
-            sCategoryResult.setCode_categ(scategory.getCode_categ());
+            sCategoryResult.setCodeCateg(scategory.getCodeCateg());
             sCategoryResult.setLibelle(scategory.getLibelle());
 
             return repository.save(sCategoryResult);
